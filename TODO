@@ -1,0 +1,36 @@
+[+] parse data from db
+    [-] dynamic data pull?
+    [+] Remove localization information (bloat)
+    [+] Reformat to property -> class vs class -> property
+    [+] Reformat Paragon board to better data struct
+    [] Reformat skills to better organize dmg types 
+
+
+[] Create optimzation algorithm
+    [] Make standard damage/HP calc functions 
+    [] Make descision tree on character/skill/etc
+
+[] Skill Tree Model
+    [] Check for # of nodes
+    [] Check if nodes are reachable
+    [] Structure?
+        [] Edit existing structure?
+        [] Use Existing Structure?
+
+[] Gear Model
+    [] Item Types list (class based itemization)
+    [] Legendary Affixes
+        [] Base on Skill Tree Data
+    [] Affix Rolls 
+        [] Clarify max value
+        [] Optimize >70% elem. reduc.
+        [] Optimize >%armor  
+        [] Optimize best dmg multi (vuln, bsrk, crit)
+
+
+[] Overall Structure
+    [] Character Dict
+        [] 1. Skill Tree
+        [] 2. Gear
+        [] 3. Paragons
+    
